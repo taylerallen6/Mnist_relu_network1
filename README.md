@@ -9,8 +9,8 @@ Input size = 784 (28 x 28 for each image)
 Hidden size = 200
 output size = 10 (value for each digit)
 
-'''
+```
 BATCH_SIZE = 1
 N, D_in, H, D_out = BATCH_SIZE, 784, 200, 10
 n_epochs = 20
-'''
+```
