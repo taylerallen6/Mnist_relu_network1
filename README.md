@@ -4,10 +4,10 @@ This is an example of a fully connected neural network classifying the mnist dat
 
 The network is written in python3 using <a href="https://github.com/pytorch">Pytorch</a> for tensor operations. It has 3 layers with a relu activation function in the hidden layer and a log softmax activation function at the output layer.
 
-Batch size = 1
-Input size = 784 (28 x 28 for each image)
-Hidden size = 200
-output size = 10 (value for each digit)
+Batch size = 1 <br/>
+Input size = 784 (28 x 28 for each image) <br/>
+Hidden size = 200 <br/>
+output size = 10 (value for each digit) <br/>
 
 ```
 BATCH_SIZE = 1
