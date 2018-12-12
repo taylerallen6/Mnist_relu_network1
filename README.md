@@ -29,6 +29,8 @@ output size = 10 (value for each digit) <br/>
 number of epochs = 20 <br/>
 
 ```
+# N is batch size; D_in is input dimension;
+# H is hidden dimension; D_out is output dimension.
 BATCH_SIZE = 1
 N, D_in, H, D_out = BATCH_SIZE, 784, 200, 10
 n_epochs = 20
